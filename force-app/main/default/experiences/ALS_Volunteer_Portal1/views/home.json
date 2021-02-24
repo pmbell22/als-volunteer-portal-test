@@ -1,0 +1,47 @@
+{
+  "appPageId" : "3ee76d62-e037-400b-95d6-5cd150734670",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "5983accb-d612-43a5-99f3-a33d86b3eaec",
+  "label" : "Home",
+  "regions" : [ {
+    "id" : "2f32302d-68de-4eab-862e-a205587370ca",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div>     <p><span style='font-size: 48px;'>Let's get started!</span></p>     <ol>         <li><span style='font-size: 18px;'>Unfamiliar with Build Your Own? Click Take a Tour in the Help menu.</span></li>         <li><span style='font-size: 18px;'>Want to add more pages? Take a look at the Pages menu.</span></li>         <li><span style='font-size: 18px;'>Want more components on your page? Drag and drop components from the Components panel.</span></li>         <li><span style='font-size: 18px;'>Want your users to see your company logo? Head on over to the Branding panel.</span></li>         <li><span style='font-size: 18px;'>Refine the look of your community with a custom theme layout. See the Lightning Communities Developer Guide.</span></li>     </ol> </div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "845caba9-6c71-400a-9399-b874e6584793",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e6ae750a-fc6e-4f29-8be1-bc43f9c946c6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "6797da3b-63d5-46d6-8eff-0f0f9d68a05b",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "",
+        "metaTags" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1f97d696-4228-4e4b-935b-9d292d02189d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f685a896-fbdf-4b89-b28f-70b10fb727fe",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}
